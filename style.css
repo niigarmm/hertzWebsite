@@ -1,0 +1,645 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+.main-div {
+    height: 105px;
+    border-bottom: 5px solid rgb(255, 221, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+    margin-left: 6%;
+}
+
+.last-container a {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.info,
+.qa,
+.b2b {
+    margin-left: 30px;
+}
+
+.link {
+    margin-right: 2%;
+    margin-left: 5%;
+    display: flex;
+}
+
+.last {
+    display: flex;
+    margin-right: 10%;
+}
+
+.phone {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.int {
+    width: 20px;
+}
+
+.arrow {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.last-div-item {
+    display: flex;
+    align-items: center;
+}
+
+.phone-item {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.last-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.last-div-item a {
+    margin-right: 2px;
+}
+
+.number {
+    font-size: 16px;
+}
+
+.last-div-item {
+    margin-right: 10%;
+}
+
+.int {
+    margin-right: 10px;
+}
+
+.arrow {
+    margin-left: 5px;
+}
+
+.menu-div {
+    display: none;
+}
+
+.main-image {
+    width: 100%;
+}
+
+.third-page {
+    height: 100%;
+    margin-top: 50px;
+}
+
+.main-h {
+    margin-left: 90px;
+}
+
+.third-item {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 75px;
+    align-items: center;
+}
+
+.filter {
+    background-color: #fc0;
+    border-radius: 30px;
+    padding-inline: 10px;
+    padding-block: 5px;
+    font-size: 15px;
+    margin-right: 30px;
+    font-weight: 500;
+}
+
+.main-selector {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hundai-info {
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 23px;
+
+}
+
+.card {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.renault {
+    width: 300px;
+    margin-top: 15px;
+}
+
+.renault-logo {
+    width: 30px;
+}
+
+.renault2,
+.chery,
+.tiggo,
+.hundai2 {
+    width: 350px;
+    position: absolute;
+    left: 0px;
+    top: 65px;
+}
+
+.card-item {
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-div-item {
+    display: flex;
+}
+
+.second-div-item {
+    margin-top: 20px;
+    display: flex;
+    padding-bottom: 90px;
+    margin-bottom: 20px;
+
+}
+
+.seat {
+    margin-left: 0px;
+}
+
+.date {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.user2 {
+    margin-left: 63px;
+}
+
+.width {
+    width: 18px;
+}
+
+.calendar,
+.user,
+.seat,
+.car,
+.luggage,
+.trans,
+.user2,
+.luggage2,
+.trans2 {
+    display: flex;
+}
+
+.user,
+.seat {
+    margin-left: 40px;
+}
+
+.luggage {
+    margin-left: 30px;
+}
+
+.luggage2 {
+    margin-left: 32px;
+}
+
+.trans {
+    margin-left: 43px;
+}
+
+.card-wrapper {
+    border: 1px solid rgb(225, 225, 225);
+    width: 350px;
+    height: 580px;
+    margin-top: 50px;
+    margin-right: 15px;
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+}
+
+.car-logo {
+    width: 50px;
+}
+
+.hundai {
+    width: 350px;
+    position: absolute;
+    left: 0px;
+    top: 120px;
+}
+
+.card-count {
+    position: absolute;
+    bottom: 100px;
+    padding-top: 20px;
+    border-top: 1px solid rgb(227, 227, 227);
+    display: flex;
+    padding-left: 5px;
+}
+
+.cart-count-item {
+    border-right: 1px solid rgb(227, 227, 227);
+    padding-right: 30px;
+}
+
+.count-p,
+.second-p {
+    color: rgb(130, 130, 130);
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+.count-second-p,
+.count-third-p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.second-p {
+    padding-left: 15px;
+}
+
+.count-third-p {
+    padding-left: 15px;
+}
+
+.main-book {
+    position: absolute;
+    bottom: 25px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #fc0;
+    border: none;
+    width: 290px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.main-book:hover {
+    background-color: black;
+    color: #fc0;
+    transition: 0.6s;
+}
+
+.chery {
+    width: 350px;
+    margin-top: 40px;
+    left: 0px;
+}
+
+.tiggo {
+    margin-top: 20px;
+}
+
+.trans2 {
+    margin-left: 40px;
+}
+
+.hundai2 {
+    margin-top: 45px;
+    width: 330px;
+}
+
+.fourth-page {
+    background-color: #f4f4f4;
+    height: calc(100vh + 150px);
+    margin-top: 70px;
+    position: relative;
+}
+
+.fourth-p {
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 80px;
+}
+
+.condition,
+.condition,
+.secondCondition,
+.thirdCondition,
+.condition-item {
+    display: flex;
+    align-items: center;
+}
+
+.condition-logo,
+.upp-logo {
+    width: 50px;
+}
+
+.condition-p,
+.upp-p {
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.upp-p {
+    width: 210px;
+}
+
+.upp-condition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.secondCondition {
+    margin-left: 80px;
+}
+
+.condition-second-p,
+.fifth-p {
+    font-size: 25px;
+    width: 200px;
+    margin-left: 25px;
+}
+
+.bottom-condition {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.condition-item {
+    padding-left: 80px;
+}
+
+.thirdCondition {
+    padding-right: 80px;
+}
+
+.last-image {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    right: 350px;
+}
+
+.car-back-part {
+    width: 650px;
+}
+
+.fifth-p {
+    font-weight: 800;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.globe {
+    width: 60px;
+}
+
+.cammon-h,
+.secondH {
+    font-size: 21px;
+    margin-top: 20px;
+}
+
+.cammon-p,
+.cammonP {
+    font-size: 18px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.cammon-div {
+    margin-left: 60px;
+    display: flex;
+    padding-top: 50px;
+}
+
+.secondH {
+    width: 200px;
+}
+
+.secondDiv,
+.thirdDiv,
+.fourthDiv,
+.fifthDiv {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cammonP {
+    width: 220px;
+}
+
+.sixth-part {
+    background-color: rgb(68, 68, 68);
+    margin-top: 70px;
+    padding-bottom: 60px;
+}
+
+.whiteLogo {
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.lastPartp {
+    color: white;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.lastPartitem {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-all {
+    display: flex;
+}
+
+.end-part,
+.end-part-item {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.end-part-item {
+    width: 260px;
+}
+
+.secondPiece {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstPiece,
+.firstPieceItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+
+.firstPieceItem {
+    margin-left: 140px;
+}
+
+@media(max-width:1000px) {
+
+    .link,
+    .last {
+        display: none;
+    }
+
+    .last-image img {
+        width: 600px;
+    }
+
+    .fourth-page {
+        height: 500px;
+    }
+
+    .last-image {
+        right: 0px;
+    }
+
+    .fourth-p {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .upp-p,
+    .condition-p {
+        font-size: 14px;
+    }
+
+    .upp-condition,
+    .bottom-condition {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .condition-item {
+        padding: 0px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .condition,
+    .thirdCondition {
+        margin-left: 20px;
+    }
+
+    .cammon-div {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .secondDiv,
+    .thirdDiv,
+    .fourthDiv,
+    .fifthDiv {
+        margin-left: 0px;
+    }
+
+    .secondPiece {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .secondPiece a {
+        font-size: 13px;
+    }
+    .firstPieceItem,.firstPiece{
+        margin-left: 50px;
+    }
+
+    .cammonP,
+    .cammon-p {
+        width: 500px;
+        margin-bottom: 20px;
+    }
+
+    .secondCondition {
+        margin: 0px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .fifth-part img {
+        width: 50px;
+    }
+
+    .menu-div {
+        display: flex;
+        width: 50px;
+    }
+
+    .condition-second-p {
+        font-size: 14px;
+    }
+
+    .main-div {
+        height: 70px;
+        border-bottom: 2px solid rgb(255, 221, 0);
+    }
+
+    .logo {
+        margin-left: 2%;
+    }
+
+    .phone-call {
+        width: 18px;
+        height: 23px;
+        margin-right: 30px;
+    }
+
+    .menu {
+        width: 30px;
+    }
+
+    .menu-div {
+        margin-right: 60px;
+        display: flex;
+        align-items: center;
+    }
+}
